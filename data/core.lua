@@ -1,6 +1,6 @@
 --=====================================================================================
 -- SRLU | Skyrim Level-Up! - core.lua
--- Version: 2.1.2
+-- Version: 2.2.0
 -- Author: DonnieDice
 -- Description: Professional World of Warcraft addon that plays Skyrim level-up sound
 -- RGX Mods Collection - RealmGX Community Project
@@ -10,7 +10,7 @@
 SRLU = SRLU or {}
 
 -- Constants (cached for performance)
-local ADDON_VERSION = "2.1.2"
+local ADDON_VERSION = "2.2.0"
 local ADDON_NAME = "SRLU"
 local ICON_PATH = "|Tinterface/addons/SRLU/images/icon:16:16|t"
 local SOUND_PATHS = {
@@ -250,6 +250,13 @@ function SRLU:OnEvent(event, ...)
             self.initialized = true
         end
         self:DisplayWelcomeMessage()
+        return
+    end
+
+    if event == "PLAYER_LOGOUT" then
+        -- Always unmute unconditionally on logout/UI reload so the player
+        -- is never left with a permanently muted sound after the addon exits.
+        self:UnmuteDefaultLevelUpSound()
     end
 end
 
@@ -267,6 +274,7 @@ local eventFrame = CreateFrame("Frame")
 eventFrame:RegisterEvent("PLAYER_LEVEL_UP")
 eventFrame:RegisterEvent("ADDON_LOADED")
 eventFrame:RegisterEvent("PLAYER_LOGIN")
+eventFrame:RegisterEvent("PLAYER_LOGOUT")
 eventFrame:SetScript("OnEvent", function(self, event, ...)
     local success, errorMsg = pcall(SRLU.OnEvent, SRLU, event, ...)
     if not success then

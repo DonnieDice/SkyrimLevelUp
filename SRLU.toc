@@ -1,5 +1,5 @@
 ## Interface: 11508,40402,50503,110207,120000,120001
-## Version: 2.1.9
+## Version: 2.2.0
 ## Title: |cffa0a0a0S|r|cffffffffkyrim|r |cffa0a0a0L|r|cffffffffevel-|r|cffa0a0a0U|r|cffffffffp!|r
 ## Notes: Enhanced Skyrim level-up sound addon with slash commands, settings, and multi-language support.|n|r   |cffa0a0a0By DonnieDice|r
 ## Author: DonnieDice
