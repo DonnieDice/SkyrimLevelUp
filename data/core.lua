@@ -12,7 +12,7 @@ SRLU = SRLU or {}
 -- Constants (cached for performance)
 local ADDON_VERSION = "2.2.0"
 local ADDON_NAME = "SRLU"
-local ICON_PATH = "|Tinterface/addons/SRLU/images/icon:16:16|t"
+local ICON_PATH = "|Tinterface/addons/SRLU/media/icon:16:16|t"
 local SOUND_PATHS = {
     high = "Interface\\Addons\\SRLU\\sounds\\SRLU_high.ogg",
     medium = "Interface\\Addons\\SRLU\\sounds\\SRLU_med.ogg",

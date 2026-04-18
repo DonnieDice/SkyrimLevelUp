@@ -104,7 +104,7 @@ Use `/srlu` followed by various commands for full functionality:
   - High quality: `Interface\\AddOns\\SRLU\\sounds\\SRLU_high.ogg`
   - Medium quality: `Interface\\AddOns\\SRLU\\sounds\\SRLU_med.ogg`
   - Low quality: `Interface\\AddOns\\SRLU\\sounds\\SRLU_low.ogg`
-- **Icon Path**: `Interface\\AddOns\\SRLU\\images\\icon`
+- **Icon Path**: `Interface\\AddOns\\SRLU\\media\\icon`
 - **Compatibility**: Retail, Classic Era, Cataclysm Classic, and Mists of Pandaria
 
 ## Settings Architecture
