@@ -1,11 +1,6 @@
-# v2.2.2 - 2026-04-29
+# v3.0.0 - 2026-04-30
 
 ## Changes
-- Aligned Skyrim title, notes, README logo paths, and description title wording with the shared level-up addon presentation.
-- Updated description page shared RGX Kiwi asset paths and command-section wording for docs congruency.
-- Synced addon version metadata for this release.
 
-# v2.2.1 - 2026-04-23
-
-## Changes
-- TOC bump for interface 120005.
+- **Migrated to RGX-Framework**: Added `RequiredDeps: RGX-Framework` to TOC. Core logic now uses `RGX:GetSound()`, `RGX:RegisterEvent()`, and `RGX:RegisterSlashCommand()` — eliminating duplicated boilerplate.
+- **RGXSound handle**: Sound playback, variant management, mute/unmute, settings, and welcome message are now handled by the RGXSound module in RGX-Framework.
