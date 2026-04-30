@@ -1,10 +1,10 @@
 ## Interface: 11508,40402,50503,110207,120000,120001,120005
-## Version: 2.2.1
-## Title: |cffa0a0a0S|r|cffffffffkyrim|r |cffa0a0a0L|r|cffffffffevel-|r|cffa0a0a0U|r|cffffffffp!|r
-## Notes: Enhanced Skyrim level-up sound addon with slash commands, settings, and multi-language support.|n|r   |cffa0a0a0By DonnieDice|r
+## Version: 2.2.2
+## Title:  |cff8B4513S|r|cffffffffkyrim|r |cff8B4513L|r|cffffffffevel-|r|cff8B4513U|r|cffffffffp|r|cff8B4513!|r
+## Notes:  Play a Skyrim-inspired level-up sound!  |n|r  |cff8B4513/srlu -|r Open help  |n|r   |cff8B4513By DonnieDice|r
 ## Author: DonnieDice
 ## Email: donniedice@protonmail.com
-## IconTexture: Interface\AddOns\SRLU\media\icon
+## IconTexture: Interface\AddOns\SkyrimLevelUp\media\icon
 ## SavedVariables: SRLUSettings
 
 ## X-Category: UI Media, Questing & Leveling, Audio & Video, Miscellaneous
@@ -15,4 +15,3 @@
 
 data\locales.lua
 data\core.lua
-

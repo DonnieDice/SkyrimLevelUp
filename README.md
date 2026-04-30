@@ -1,9 +1,9 @@
-# <img src="images/SRLU_logo_400x400.png" width="25" height="25"> <span style="color:#8B4513">S</span><span style="color:#8B4513">R</span><span style="color:#8B4513">L</span><span style="color:#8B4513">U</span> <span style="color:#fff">|</span> <span style="color:#8B4513">Skyrim</span> <span style="color:#fff">Level-</span><span style="color:#8B4513">U</span><span style="color:#fff">p!</span>
+# <img src="media/logo.png" width="25" height="25"> <span style="color:#8B4513">S</span><span style="color:#8B4513">R</span><span style="color:#8B4513">L</span><span style="color:#8B4513">U</span> <span style="color:#fff">|</span> <span style="color:#8B4513">Skyrim</span> <span style="color:#fff">Level-</span><span style="color:#8B4513">U</span><span style="color:#fff">p!</span>
 ## <img src="https://raw.githubusercontent.com/donniedice/SimpleQuestPlates/main/media/kiwi.gif" height="20"> <span style="color:#8B1538">R</span><span style="color:#8B1538">G</span><span style="color:#8B1538">X</span> <span style="color:#4ecdc4">Mods</span> <span style="color:#3598db">-</span> [<span style="color:#8B1538">R</span><span style="color:#7598b6">ealm</span><span style="color:#8B1538">G</span><span style="color:#8B1538">X</span>](https://realmgx.com) <span style="color:#8B4513">Community Project</span>
 
 <div align="center">
 
-<img src="images/SRLU_logo_400x400.png" alt="SRLU Logo" width="200">
+<img src="media/logo.png" alt="SRLU Logo" width="200">
 
 [![SRLU](https://img.shields.io/badge/SRLU-Skyrim%20Level%20Up!-8B4513?style=for-the-badge&logo=github&logoColor=white)](https://github.com/donniedice/SkyrimLevelUp)
 [![RGX Mods](https://img.shields.io/badge/RGX-Mods%20Collection-8B1538?style=for-the-badge&logo=github&logoColor=white)](https://discord.gg/N7kdKAHVVF)
