@@ -11,7 +11,7 @@
 ## RequiredDeps: RGX-Framework
 
 ## X-Category: UI Media, Questing & Leveling, Audio & Video, Miscellaneous
-## X-Website: https://github.com/donniedice/SkyrimLevelUp
+## X-Website: https://github.com/RGXMods/SkyrimLevelUp
 ## X-Curse-Project-ID: 594118
 ## X-Wago-ID: J96EkaGg
 ## X-WoWI-ID: 26265
