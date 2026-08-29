@@ -14,7 +14,6 @@
 ## X-Website: https://github.com/RGXMods/SkyrimLevelUp
 ## X-Curse-Project-ID: 594118
 ## X-Wago-ID: J96EkaGg
-## X-WoWI-ID: 26265
 
 data\locales.lua
 data\core.lua
